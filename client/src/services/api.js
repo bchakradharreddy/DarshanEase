@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://darshanease-backend-p2jc.onrender.com",
+  baseURL: "https://darshanease-backend-p2jc.onrender.com/api",
 });
 
 // Add JWT token automatically
